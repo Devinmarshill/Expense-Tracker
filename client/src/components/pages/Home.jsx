@@ -23,16 +23,13 @@ const Home = () => {
         <div class="col-md-6">
           <div class="detail-box">
             <h3>
-              We Are Finexo
+              We Are SpendSmart
             </h3>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+              Welcome to SpendSmart, your go to solution for effortless expense tracking and finanical managment. Say goodbye to the hassle of manual expense tracking and hello to a streamlined, user-friendly experience. With powerful features like real-time expense tracking, insightful reports, and customizable categories, managing your money has never been this convenient. SpendSmart is here to simplify the process and provide you with valuable insights to make informed financial decisions.
             </p>
             <p>
-              Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
+            Choose SpendSmart for unparalleled simplicity and control over your finances. Our user-friendly interface, real-time tracking, and robust features make managing expenses a breeze. Gain insights, set budgets, and achieve financial goals effortlessly, SpendSmart is your key to financial freedom.
             </p>
             <a href="">
               Read More
@@ -60,7 +57,7 @@ const Home = () => {
             </div>
             <div class="detail-box">
               <h5>
-                Joseph Brown
+                Alex Delva
               </h5>
               <p>
                 Marketing Head
@@ -92,7 +89,7 @@ const Home = () => {
             </div>
             <div class="detail-box">
               <h5>
-                Nancy White
+                Felipe Sierra
               </h5>
               <p>
                 Marketing Head
@@ -124,7 +121,7 @@ const Home = () => {
             </div>
             <div class="detail-box">
               <h5>
-                Earl Martinez
+                Devin Hill
               </h5>
               <p>
                 Marketing Head
@@ -156,7 +153,7 @@ const Home = () => {
             </div>
             <div class="detail-box">
               <h5>
-                Josephine Allard
+                David Molina
               </h5>
               <p>
                 Marketing Head
