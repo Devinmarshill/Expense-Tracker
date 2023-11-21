@@ -22,87 +22,21 @@ const Home = () => {
             <div class="col-md-6 ">
               <div class="detail-box">
                 <h1>
-                  Crypto
-                  Currency
+                  Expense and Budget Tracking made Simple 
                 </h1>
                 <p>
-                  Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                SpendSmart is not just an expense tracker; it's a financial companion committed to simplifying your financial journey. We stand out with an intuitive design, real-time tracking, and powerful features that make managing your money effortless.
                 </p>
-                <div class="btn-box">
-                  <a href="" class="btn1">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="img-box">
-                {/* <img src="images/slider-img.png" alt=""> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item ">
-        <div class="container ">
-          <div class="row">
-            <div class="col-md-6 ">
-              <div class="detail-box">
-                <h1>
-                  Crypto
-                  Currency
-                </h1>
-                <p>
-                  Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
-                </p>
-                <div class="btn-box">
-                  <a href="" class="btn1">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="img-box">
-                {/* <img src="images/slider-img.png" alt=""> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container ">
-          <div class="row">
-            <div class="col-md-6 ">
-              <div class="detail-box">
-                <h1>
-                  Crypto 
-                  Currency
-                </h1>
-                <p>
-                  Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
-                </p>
-                <div class="btn-box">
-                  <a href="" class="btn1">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="img-box">
-                {/* <img src="images/slider-img.png" alt=""> */}
+                
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <ol class="carousel-indicators">
+    {/* <ol class="carousel-indicators">
       <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-      <li data-target="#customCarousel1" data-slide-to="1"></li>
-      <li data-target="#customCarousel1" data-slide-to="2"></li>
-    </ol>
+    </ol> */}
   </div>
 
 </section>
@@ -202,7 +136,7 @@ const Home = () => {
               Happy Customers
             </h5>
             <p>
-            "Discovering SpendSmart has been a game-changer for my financial journey. As someone who used to struggle with keeping tabs on expenses, this app has become my financial ally. The real-time tracking feature and intuitive interface have made budgeting a breeze, allowing me to stay on top of my spending effortlessly. Thanks to SpendSmart, I've not only achieved my financial goals but also gained a sense of control and confidence in managing my money. It's more than just an app it's a transformative tool that every savvy individual should have in their financial toolkit." - Sarah T., Satisfied [App Name] User
+            "Discovering SpendSmart has been a game-changer for my financial journey. As someone who used to struggle with keeping tabs on expenses, this app has become my financial ally. The real-time tracking feature and intuitive interface have made budgeting a breeze, allowing me to stay on top of my spending effortlessly. Thanks to SpendSmart, I've not only achieved my financial goals but also gained a sense of control and confidence in managing my money. It's more than just an app it's a transformative tool that every savvy individual should have in their financial toolkit." - Sarah T., Satisfied SpendSmart User
             </p>
           </div>
         </div>
