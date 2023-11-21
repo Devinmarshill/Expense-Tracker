@@ -116,7 +116,7 @@ const Home = () => {
           About <span>Us</span>
         </h2>
         <p>
-          Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
+        Our team is dedicated to providing you with an intuitive and powerful expense tracker app designed to transform the way you manage your money. Discover a seamless experience that puts you in control of your finances
         </p>
       </div>
       <div class="row">
@@ -163,8 +163,7 @@ const Home = () => {
               Expert Management
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            Our team of financial experts has meticulously crafted this app to ensure it goes beyond basic expense tracking. Benefit from industry-leading insights, tailored budgeting strategies, and comprehensive financial analysis tools that empower you to make informed decisions
             </p>
           </div>
         </div>
@@ -177,8 +176,7 @@ const Home = () => {
               Secure Investment
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            Rest assured with SpendSmart, your gateway to a secure and reliable financial management experience. We prioritize the security of your financial data with state-of-the-art encryption, multi-layered authentication, and industry-leading privacy measures.
             </p>
           </div>
         </div>
@@ -188,11 +186,10 @@ const Home = () => {
           </div>
           <div class="detail-box">
             <h5>
-              Instant Trading
+              Budget Tracking
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            With intuitive budget tracking features, SpendSmart ensures that you stay in control of your spending. Set personalized budgets, receive real-time updates, and gain valuable insights to make informed financial decisions. Experience the ease of budgeting like never before
             </p>
           </div>
         </div>
@@ -205,8 +202,7 @@ const Home = () => {
               Happy Customers
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            "Discovering SpendSmart has been a game-changer for my financial journey. As someone who used to struggle with keeping tabs on expenses, this app has become my financial ally. The real-time tracking feature and intuitive interface have made budgeting a breeze, allowing me to stay on top of my spending effortlessly. Thanks to SpendSmart, I've not only achieved my financial goals but also gained a sense of control and confidence in managing my money. It's more than just an app it's a transformative tool that every savvy individual should have in their financial toolkit." - Sarah T., Satisfied [App Name] User
             </p>
           </div>
         </div>

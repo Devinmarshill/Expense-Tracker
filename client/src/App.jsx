@@ -4,11 +4,11 @@
 import './App.css'
 import Nav from './components/Nav'
 import Home from './components/pages/Home'
-import "bootstrap/dist/css/bootstrap.css"
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
   <>
