@@ -228,7 +228,7 @@ const Home = () => {
         <div class="col-lg-3 col-sm-6">
           <div class="box ">
             <div class="img-box">
-              {/* <img src="images/team-1.jpg" class="img1" alt=""/> */}
+              <img src="" class="img1" alt=""/>
             </div>
             <div class="detail-box">
               <h5>
