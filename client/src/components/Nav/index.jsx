@@ -10,7 +10,7 @@ function Nav() {
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="index.html">
           <span>
-            Finexo
+            SpendSmart
           </span>
         </a>
 
@@ -24,7 +24,7 @@ function Nav() {
               <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="about.html"> About <span class="sr-only">(current)</span> </a>
+              <a class="nav-link" href="about.html"> About <span class="sr-only"></span> </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="service.html">Services</a>
@@ -36,7 +36,7 @@ function Nav() {
               <a class="nav-link" href="team.html">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+              <a class="nav-link" href="Login.jsx"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
             </li>
             <form class="form-inline">
               <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
