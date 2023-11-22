@@ -12,6 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+header {
+background-color: #535bf2;
+}
 
 a {
   font-weight: 500;
@@ -66,3 +69,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.purple-box {
+  background-color: #535bf2;
+}
+
