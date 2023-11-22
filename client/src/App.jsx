@@ -15,6 +15,10 @@ function App() {
     <Nav/>
 
     <Home/>
+
+    <Login/>
+
+    <Signup/>
     </>
   )
 }
