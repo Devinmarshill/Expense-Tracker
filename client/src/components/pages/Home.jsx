@@ -1,6 +1,6 @@
 
 // import image from
-import alexDelvaPhoto from '../images/alexDelva.jpg';
+import alexDelvaPhoto from '../../images/alexDelva.jpg';
 import hero from '../images/hero-bg.png'
 
 const Home = () => {
