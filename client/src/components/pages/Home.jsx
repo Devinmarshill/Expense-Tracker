@@ -1,26 +1,28 @@
 
-// import image from 
+// import image from
+import alexDelvaPhoto from '../images/alexDelva.jpg';
+import hero from '../images/hero-bg.png'
 
 const Home = () => {
   return (
     <>
-     <div class="hero_area">
+     <div className="hero_area">
 
-<div class="hero_bg_box">
-  <div class="bg_img_box">
-    {/* <img src="images/hero-bg.png" alt=""> */}
+<div className="hero_bg_box">
+  <div className="bg_img_box">
+    <img src="{hero}" alt=""/>
   </div>
 </div>
 
 
-<section class="slider_section ">
-  <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="container ">
-          <div class="row">
-            <div class="col-md-6 ">
-              <div class="detail-box">
+<section className="slider_section purple-box ">
+  <div id="customCarousel1" className="carousel slide" data-ride="carousel">
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <div className="container ">
+          <div className="row">
+            <div className="col-md-6 ">
+              <div className="detail-box">
                 <h1>
                   Expense and Budget Tracking made Simple 
                 </h1>
@@ -34,8 +36,8 @@ const Home = () => {
         </div>
       </div>
     </div>
-    {/* <ol class="carousel-indicators">
-      <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+    {/* <ol className="carousel-indicators">
+      <li data-target="#customCarousel1" data-slide-to="0" className="active"></li>
     </ol> */}
   </div>
 
@@ -43,9 +45,9 @@ const Home = () => {
 
 </div>
 
-    <section class="about_section layout_padding">
-    <div class="container  ">
-      <div class="heading_container heading_center">
+    <section className="about_section layout_padding">
+    <div className="container  ">
+      <div className="heading_container heading_center">
         <h2>
           About <span>Us</span>
         </h2>
@@ -53,14 +55,14 @@ const Home = () => {
         Our team is dedicated to providing you with an intuitive and powerful expense tracker app designed to transform the way you manage your money. Discover a seamless experience that puts you in control of your finances
         </p>
       </div>
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
+      <div className="row">
+        <div className="col-md-6 ">
+          <div className="img-box">
             {/* <img src="images/about-img.png" alt=""/> */}
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="detail-box">
+        <div className="col-md-6">
+          <div className="detail-box">
             <h3>
               We Are SpendSmart
             </h3>
@@ -80,19 +82,19 @@ const Home = () => {
   </section>
 
   
-  <section class="why_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
+  <section className="why_section layout_padding">
+    <div className="container">
+      <div className="heading_container heading_center">
         <h2>
           Why Choose <span>Us</span>
         </h2>
       </div>
-      <div class="why_container">
-        <div class="box">
-          <div class="img-box">
+      <div className="why_container">
+        <div className="box">
+          <div className="img-box">
             {/* <img src="images/w1.png" alt=""> */}
           </div>
-          <div class="detail-box">
+          <div className="detail-box">
             <h5>
               Expert Management
             </h5>
@@ -101,11 +103,11 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div class="box">
-          <div class="img-box">
+        <div className="box">
+          <div className="img-box">
             {/* <img src="images/w2.png" alt=""> */}
           </div>
-          <div class="detail-box">
+          <div className="detail-box">
             <h5>
               Secure Investment
             </h5>
@@ -114,11 +116,11 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div class="box">
-          <div class="img-box">
+        <div className="box">
+          <div className="img-box">
             {/* <img src="images/w3.png" alt=""> */}
           </div>
-          <div class="detail-box">
+          <div className="detail-box">
             <h5>
               Budget Tracking
             </h5>
@@ -127,11 +129,11 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div class="box">
-          <div class="img-box">
+        <div className="box">
+          <div className="img-box">
             {/* <img src="images/w4.png" alt=""> */}
           </div>
-          <div class="detail-box">
+          <div className="detail-box">
             <h5>
               Happy Customers
             </h5>
@@ -141,7 +143,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="btn-box">
+      <div className="btn-box">
         <a href="">
           Read More
         </a>
@@ -149,22 +151,22 @@ const Home = () => {
     </div>
   </section>
   
-  <section class="team_section layout_padding">
-  <div class="container-fluid">
-    <div class="heading_container heading_center">
-      <h2 class="">
+  <section className="team_section layout_padding">
+  <div className="container-fluid">
+    <div className="heading_container heading_center">
+      <h2 className="">
         Our <span> Team</span>
       </h2>
     </div>
 
-    <div class="team_container">
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <div class="box ">
-            <div class="img-box">
-              <img src="" class="img1" alt=""/>
+    <div className="team_container">
+      <div className="row">
+        <div className="col-lg-3 col-sm-6">
+          <div className="box ">
+            <div className="img-box">
+              <img src={alexDelvaPhoto} className="img1" alt="Alex Delva Photo"/>
             </div>
-            <div class="detail-box">
+            <div className="detail-box">
               <h5>
                 Alex Delva
               </h5>
@@ -172,31 +174,31 @@ const Home = () => {
                 Marketing Head
               </p>
             </div>
-            <div class="social_box">
+            <div className="social_box">
               <a href="#">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i className="fa fa-twitter" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i className="fa fa-youtube-play" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="box ">
-            <div class="img-box">
-              {/* <img src="images/team-2.jpg" class="img1" alt=""> */}
+        <div className="col-lg-3 col-sm-6">
+          <div className="box ">
+            <div className="img-box">
+              {/* <img src="images/team-2.jpg" className="img1" alt=""> */}
             </div>
-            <div class="detail-box">
+            <div className="detail-box">
               <h5>
                 Felipe Sierra
               </h5>
@@ -204,31 +206,31 @@ const Home = () => {
                 Marketing Head
               </p>
             </div>
-            <div class="social_box">
+            <div className="social_box">
               <a href="#">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i className="fa fa-twitter" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i className="fa fa-youtube-play" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="box ">
-            <div class="img-box">
-              {/* <img src="images/team-3.jpg" class="img1" alt=""/> */}
+        <div className="col-lg-3 col-sm-6">
+          <div className="box ">
+            <div className="img-box">
+              {/* <img src="images/team-3.jpg" className="img1" alt=""/> */}
             </div>
-            <div class="detail-box">
+            <div className="detail-box">
               <h5>
                 Devin Hill
               </h5>
@@ -236,31 +238,31 @@ const Home = () => {
                 Marketing Head
               </p>
             </div>
-            <div class="social_box">
+            <div className="social_box">
               <a href="#">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i className="fa fa-twitter" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i className="fa fa-youtube-play" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="box ">
-            <div class="img-box">
-              {/* <img src="images/team-4.jpg" class="img1" alt=""> */}
+        <div className="col-lg-3 col-sm-6">
+          <div className="box ">
+            <div className="img-box">
+              {/* <img src="images/team-4.jpg" className="img1" alt=""> */}
             </div>
-            <div class="detail-box">
+            <div className="detail-box">
               <h5>
                 David Molina
               </h5>
@@ -268,21 +270,21 @@ const Home = () => {
                 Marketing Head
               </p>
             </div>
-            <div class="social_box">
+            <div className="social_box">
               <a href="#">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i className="fa fa-twitter" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
               <a href="#">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i className="fa fa-youtube-play" aria-hidden="true"></i>
               </a>
             </div>
           </div>
