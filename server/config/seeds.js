@@ -1,6 +1,7 @@
 const db = require('./connection');
-const { User, Product, Category } = require('../models');
+const { User, Product, Category, Expense } = require('../models');
 const cleanDB = require('./cleanDB');
+const {Types} = require("mongoose")
 
 db.once('open', async () => {
   await cleanDB('Category', 'categories');
@@ -129,6 +130,83 @@ db.once('open', async () => {
 
   console.log('products seeded');
 
+  const expenses = await Expense.insertMany([
+    {
+      transaction: 'Tin of Cookies',
+      price: 2.99,
+      quantity: 1,
+      product: products[0]._id
+    },
+    {
+      transaction: 'Canned Coffee',
+      price: 1.99,
+      quantity: 1,
+      product: products[1]._id
+    },
+    {
+      transaction: 'Toilet Paper',
+      price: 7.99,
+      quantity: 1,
+      product: products[2]._id
+    },
+    {
+transaction: 'Handmade Soap',
+      price: 3.99,
+      quantity: 1,
+      product: products[3]._id
+    },
+    {
+      transaction: 'Set of Wooden Spoons',
+      price: 14.99,
+      quantity: 1,
+      product: products[4]._id
+    },
+    {
+      transaction: 'Camera',
+      price: 399.99,
+      quantity: 1,
+      product: products[5]._id
+    },
+    {
+      transaction: 'Tablet',
+      price: 199.99,
+      quantity: 1,
+      product: products[6]._id
+    },
+    {
+    transaction: 'Tales at Bedtime',
+      price: 9.99,
+      quantity: 1,
+      product: products[7]._id
+    },
+    {
+      transaction: 'Spinning Top',
+      price: 1.99,
+      quantity: 1,
+      product: products[8]._id
+    },
+    {
+      transaction: 'Set of Plastic Horses',
+      price: 2.99,
+      quantity: 1,
+      product: products[9]._id
+    },
+    {
+      transaction: 'Teddy Bear',
+      price: 7.99,
+      quantity: 1,
+      product: products[10]._id
+    },
+    {
+     transaction: 'Alphabet Blocks',
+      price: 9.99,
+      quantity: 1,
+      product: products[11]._id
+    }
+  ]);
+  console.log('expenses seeded');
+
+
   await User.create({
     firstName: 'Pamela',
     lastName: 'Washington',
@@ -138,6 +216,41 @@ db.once('open', async () => {
       {
         products: [products[0]._id, products[0]._id, products[1]._id]
       }
+    ],
+    expenses:[
+      {
+        _id:new Types.ObjectId(expenses[0]._id),
+      },
+      // {
+      //   _id:expenses[1]._id,
+      // },   {
+      //   _id:expenses[2]._id,
+      // },   {
+      //   _id:expenses[3]._id,
+      // },   {
+      //   _id:expenses[4]._id,
+      // },
+      // {
+      //   _id:expenses[5]._id,
+      // },
+      // {
+      //   _id:expenses[6]._id,
+      // },
+      // {
+      //   _id:expenses[7]._id,
+      // },
+      // {
+      //   _id:expenses[8]._id,
+      // },
+      // {
+      //   _id:expenses[9]._id,
+      // },
+      // {
+      //   _id:expenses[10]._id,
+      // },
+      // {
+      //   _id:expenses[11]._id,
+      // }
     ]
   });
 
