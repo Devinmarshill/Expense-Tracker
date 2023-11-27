@@ -36,7 +36,7 @@ function Nav() {
               <a className="nav-link" href="team.html">Team</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="Login.jsx"> <i className="fa fa-user" aria-hidden="true"></i> Login</a>
+              <a className="nav-link" href="/Login"> <i className="fa fa-user" aria-hidden="true"></i> Login</a>
             </li>
             <form className="form-inline">
               <button className="btn  my-2 my-sm-0 nav_search-btn" type="submit">
