@@ -13,6 +13,14 @@ const typeDefs = `
     price: Float
     category: Category
   }
+  type Expense {
+    _id: ID
+   transaction: String
+   transactionDate: String
+    quantity: Int
+    price: Float
+   product: Product
+  }
 
   type Order {
     _id: ID
@@ -48,6 +56,7 @@ const typeDefs = `
 
   type Query {
     categories: [Category]
+   expenses: [Expense]
     products(category: ID, name: String): [Product]
     product(_id: ID!): Product
     user: User

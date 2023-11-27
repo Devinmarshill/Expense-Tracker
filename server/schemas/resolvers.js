@@ -1,4 +1,4 @@
-const { User, Product, Category, Order } = require('../models');
+const { User, Product, Category, Order,Expense } = require('../models');
 const { signToken, AuthenticationError } = require('../utils/auth');
 const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
@@ -6,6 +6,9 @@ const resolvers = {
   Query: {
     categories: async () => {
       return await Category.find();
+    },
+    expenses: async () => {
+      return await Expense.find();
     },
     products: async (parent, { category, name }) => {
       const params = {};
