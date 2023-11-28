@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './font-awesome.min.css'
 
 import Nav from './components/Nav'
-import Home from './components/pages/Home'
+// import Home from './pages/Home'
 import {Outlet} from 'react-router-dom'
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client'
 

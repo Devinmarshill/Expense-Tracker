@@ -1,7 +1,7 @@
 
 // import image from
-import alexDelvaPhoto from '../images/alexDelva.jpg';
-import hero from '../images/hero-bg.png'
+import alexDelvaPhoto from '../assets/images/alexDelva.jpg';
+// import hero from '../images/hero-bg.png'
 
 const Home = () => {
   return (
