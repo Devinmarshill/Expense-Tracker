@@ -1,7 +1,13 @@
 
 // import image from
+<<<<<<< HEAD:client/src/pages/Home.jsx
 import alexDelvaPhoto from '../assets/images/alexDelva.jpg';
 // import hero from '../images/hero-bg.png'
+=======
+import alexDelvaPhoto from '../images/alexDelva.jpg';
+import devinPhoto from '../images/devinPhoto.png';
+import hero from '../images/hero-bg.png'
+>>>>>>> default:client/src/components/pages/Home.jsx
 
 const Home = () => {
   return (
@@ -228,7 +234,7 @@ const Home = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="box ">
             <div className="img-box">
-              {/* <img src="images/team-3.jpg" className="img1" alt=""/> */}
+            <img src={devinPhoto} className="img1" alt="Devin Photo"/>
             </div>
             <div className="detail-box">
               <h5>
