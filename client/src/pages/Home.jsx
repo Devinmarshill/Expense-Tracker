@@ -1,8 +1,13 @@
 
 // import image from
+<<<<<<< HEAD:client/src/pages/Home.jsx
+import alexDelvaPhoto from '../assets/images/alexDelva.jpg';
+// import hero from '../images/hero-bg.png'
+=======
 import alexDelvaPhoto from '../images/alexDelva.jpg';
 import devinPhoto from '../images/devinPhoto.png';
 import hero from '../images/hero-bg.png'
+>>>>>>> default:client/src/components/pages/Home.jsx
 
 const Home = () => {
   return (
