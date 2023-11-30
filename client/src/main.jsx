@@ -5,6 +5,7 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import Login from './pages/Login.jsx'
 import Signup from './pages/Signup.jsx'
+import Expenses from './pages/Expenses.jsx'
 // import Expense from '../../server/models/Expense.js'
 
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/signUp',
         element: <Signup />
+      },
+      {
+        path: '/expenses',
+        element: <Expenses />
       }
     ]
   }

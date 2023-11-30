@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
-// import Auth from '../../utils/auth';
+// import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
 
 function Signup(props) {
@@ -19,7 +19,7 @@ function Signup(props) {
       },
     });
     const token = mutationResponse.data.addUser.token;
-    Auth.login(token);
+    // Auth.login(token);
   };
 
   const handleChange = (event) => {
