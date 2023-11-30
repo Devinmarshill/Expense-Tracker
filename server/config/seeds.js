@@ -1,7 +1,8 @@
 const db = require('./connection');
 const { User, Product, Category, Expense } = require('../models');
 const cleanDB = require('./cleanDB');
-const {Types} = require("mongoose")
+const {Types} = require("mongoose");
+const { find } = require('../models/Order');
 
 db.once('open', async () => {
   await cleanDB('Category', 'categories');
@@ -217,41 +218,7 @@ transaction: 'Handmade Soap',
         products: [products[0]._id, products[0]._id, products[1]._id]
       }
     ],
-    expenses:[
-      {
-        _id:new Types.ObjectId(expenses[0]._id),
-      },
-      // {
-      //   _id:expenses[1]._id,
-      // },   {
-      //   _id:expenses[2]._id,
-      // },   {
-      //   _id:expenses[3]._id,
-      // },   {
-      //   _id:expenses[4]._id,
-      // },
-      // {
-      //   _id:expenses[5]._id,
-      // },
-      // {
-      //   _id:expenses[6]._id,
-      // },
-      // {
-      //   _id:expenses[7]._id,
-      // },
-      // {
-      //   _id:expenses[8]._id,
-      // },
-      // {
-      //   _id:expenses[9]._id,
-      // },
-      // {
-      //   _id:expenses[10]._id,
-      // },
-      // {
-      //   _id:expenses[11]._id,
-      // }
-    ]
+
   });
 
   await User.create({
@@ -260,6 +227,12 @@ transaction: 'Handmade Soap',
     email: 'eholt@testmail.com',
     password: 'password12345'
   });
+  const users = await User.find()
+  
+  for(let i = 0; i<expenses.length; i++) {
+    const index = Math.floor(Math.random()*users.length)
+    await User.findOneAndUpdate({_id:users[index]},{$addToSet:{expenses:expenses[i]._id}})
+  }
 
   console.log('users seeded');
 

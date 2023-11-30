@@ -34,6 +34,7 @@ const typeDefs = `
     lastName: String
     email: String
     orders: [Order]
+    expenses: [Expense]
   }
 
   type Checkout {
@@ -56,7 +57,7 @@ const typeDefs = `
 
   type Query {
     categories: [Category]
-   expenses: [Expense]
+   expenses: [User]
     products(category: ID, name: String): [Product]
     product(_id: ID!): Product
     user: User

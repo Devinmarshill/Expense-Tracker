@@ -8,7 +8,7 @@ const resolvers = {
       return await Category.find();
     },
     expenses: async () => {
-      return await Expense.find();
+      return await User.find().populate("expenses");
     },
     products: async (parent, { category, name }) => {
       const params = {};

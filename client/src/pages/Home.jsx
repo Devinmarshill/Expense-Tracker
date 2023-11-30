@@ -1,8 +1,9 @@
 
 // import image from
-import alexDelvaPhoto from '../images/alexDelva.jpg';
-import devinPhoto from '../images/devinPhoto.png';
-import hero from '../images/hero-bg.png'
+import alexDelvaPhoto from '../assets/images/alexDelva.jpg';
+import devinPhoto from '../assets/images/devinPhoto.png';
+// import hero from '../images/hero-bg.png'
+
 
 const Home = () => {
   return (

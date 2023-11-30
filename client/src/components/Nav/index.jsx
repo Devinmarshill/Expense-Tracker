@@ -21,7 +21,7 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav  ">
             <li className="nav-item ">
-              <a className="nav-link" href="index.html">Home </a>
+              <a className="nav-link" href="/Home">Home </a>
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="about.html"> About <span className="sr-only"></span> </a>
@@ -34,6 +34,9 @@ function Nav() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="team.html">Team</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Expenses">Expense</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/Login"> <i className="fa fa-user" aria-hidden="true"></i> Login</a>

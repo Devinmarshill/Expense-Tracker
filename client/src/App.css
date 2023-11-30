@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -138,6 +140,7 @@
   .service_section .box {
     flex-direction: column;
   }
+  
 
   .service_section .box .img-box {
     justify-content: flex-start;
@@ -157,7 +160,6 @@
 
 
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
