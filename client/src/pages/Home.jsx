@@ -1,5 +1,5 @@
 
-import Felipe from '../assets/images/felipe.jpg';
+// import Felipe from '../assets/images/felipe.jpg';
 import alexDelvaPhoto from '../images/alexDelva.jpg';
 import devinPhoto from '../images/devinPhoto.png';
 import hero from '../images/hero-bg.png'
@@ -196,9 +196,9 @@ const Home = () => {
         </div>
         <div className="col-lg-3 col-sm-6">
           <div className="box ">
-            <div className="img-box">
+            {/* <div className="img-box">
                <img src="images/felipe.jpg" className="img1" alt=""> 
-            </div>
+            </div> */}
             <div className="detail-box">
               <h5>
                 Felipe Sierra
