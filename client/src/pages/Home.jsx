@@ -230,7 +230,7 @@ const Home = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="box ">
             <div className="img-box">
-            <img src={devinPhoto} className="img1" alt="Devin Photo"/>
+            {/* <img src={devinPhoto} className="img1" alt="Devin Photo"/> */}
             </div>
             <div className="detail-box">
               <h5>
